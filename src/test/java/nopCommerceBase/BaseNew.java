@@ -26,6 +26,7 @@ public class BaseNew
 		driver.manage().window().maximize();
 		Reporter.log("Lauching browser", true);
 		UtilityNopCommerce.wait(driver, 1000);
+		
 	}
 	
 	public static void closingBrowser(WebDriver driver) throws InterruptedException 
