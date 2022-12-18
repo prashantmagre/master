@@ -34,6 +34,7 @@ public class BaseNew
 		Reporter.log("closing browser", true);
 		Thread.sleep(500);
 		driver.close();
+		
 	}
 
 }
